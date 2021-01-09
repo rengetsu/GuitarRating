@@ -1,0 +1,34 @@
+<html> 
+<script type="text/javascript" src="JS/script.js">
+</script>
+<head>
+<link rel="stylesheet" href="CSS/style.css" type="text/css"/>
+<link rel="icon" href="Images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+<title> Guitar Rating App - Select your guitar </title>
+</head>
+<body bgcolor="white" text="blue">
+<p style="text-align:center;"><img id="logos" src="Images/logo.png" border="0"/></p>
+<h1><img src="Images/Who.png"/></h1>
+<p id="v-edition"> LEFT or RIGHT </p>
+<div id="container" style="text-align:center;">
+<div id="left">
+<p class="thumb">
+<img id="righx" onclick="go_left()" src="Images/GUITARS/1.png" width="20%" border="0"/><img id="right" onclick="go_right()" src="Images/GUITARS/2.png" width="20%" border="0"/>
+</p>
+</div>
+</div>
+<div align="center">
+<h3>To subscribe to our newsletter, enter your email. Email address and click the button!</h3>
+<form name="search">
+	<h4>Name: <input id="myInput1" type="text" name="key" value="Name"></input></h4>
+	<h4>Email: <input id="myInput2" type="text" name="key" value="mail@mail.com"></input></h4>
+    <input type="submit" name="send" value="Send" onclick="sendMail()" />
+</form>
+</div>
+<img id="back-girls" src="Images/back.png" border="0" style="left: 0px; bottom: 0px;" />
+<div align="center">
+<input type="submit" name="send" value="Rating" onclick="showRating()" />
+</div>
+</body>
+</html>

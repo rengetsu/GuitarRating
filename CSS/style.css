@@ -1,0 +1,45 @@
+h1
+{
+	color:	red;
+	text-align:	center;
+}
+
+#back-girls
+{
+	width:	100%;
+}
+
+#v-edition
+{
+	text-align:	center;
+}
+#logos
+{
+	width:	25%;
+}
+
+.thumb img  
+{
+    border: 2px solid #55c5e9;
+    padding: 15px;
+    background: #666;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.thumb img:hover
+{
+    background: #009933;
+    text-decoration: underline;
+}
+
+input[type=button], input[type=submit], input[type=reset]
+{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
